@@ -1,0 +1,88 @@
+---
+title: "Ostryi Oleksandr"
+subtitle: "Artificial Intelligence Student"
+format:
+  html:
+    theme: cosmo
+    include-in-header: 
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  pdf:
+    documentclass: article
+---
+
+::: callout-note
+## Contacts and References
+
+<p><i class="fa-solid fa-envelope"></i> <a href="mailto:osstryi@gmail.com">osstryi\@gmail.com</a>   \|   <i class="fa-solid fa-phone"></i> +380 98 324 2124   \|   <i class="fa-brands fa-github"></i> <a href="https://github.com/oostryi">oostryi</a>   \|   <i class="fa-solid fa-location-dot"></i> 02000 Kyiv, Ukraine</p>
+:::
+
+::::: columns
+::: {.column width="70%"}
+### <i class="fa-solid fa-building-columns"></i> Education
+
+#### Official Education
+
+| **School (2013 - 2020)**
+| [Vinnytsia school of General Education No. 18]{style="color:gray;"}
+
+| **Lyceum (2020 - 2024)**
+| [Podilskyi Scientific and Technical Lyceum]{style="color:gray;"}
+| Graduated with Gold Medal 
+
+| **Undergraduate education (2024 - 2028)**
+| [Kyiv School of Economics]{style="color:gray;"}
+| Bachelor of Artificial Intelligence
+
+### <i class="fa-solid fa-briefcase"></i> Employment and Experiences
+
+| **Translator (NOV 2024 - JAN 2025)**
+| [Khan Academy]{style="color:gray;"}
+| Translated study materials on Khan Academy (in collaboration with Ukrainian Khan Academy team) platform from English to Ukrainian for free access to education in Ukraine.
+| **Technical Prototyping Lead (NOV 2025 - JAN 2026)**
+| [Freelance]{style="color:gray;"}
+| • Rapid MVP Development: used AI engineering tools (like Cursor) to build a functional prototype of an ordering platform.
+| • Database Architecture and Logic: designed and implemented a relational database structure, ensuring efficient data flow for search functionality and page loading time.
+| • Data Driven Quality Control: used SQL and Python for data level analysis to monitor and debug automated cron jobs, fixing logic issues and ensuring correct database updates.
+| • Cloud Infrastructure Management: managed deployment and maintenance of the production environment on the Render cloud platform.
+:::
+
+::: {.column style="border-left: 2px solid #ccc; padding-left: 1em; width: 30%;"}
+### <i class="fa-solid fa-toolbox"></i> Known Tools and Concepts
+
+**Programming:** `Python` `C++` `C#`
+
+**Data:** `SQL` `R` `Tableau`
+
+**Tools:** `Git` 
+
+**Concepts:** `Algorithms and Data Structures` `Database Management` `Machine Learning` `Discreet Math and Logic` 
+
+### <i class="fa-solid fa-language"></i> Languages
+
+::: {.content-visible when-format="html"}
+Ukrainian 100%
+<progress value="1" max="1" style="width:100%; height:10px;"></progress>
+English 85%
+<progress value="0.85" max="1" style="width:100%; height:10px;"></progress>
+:::
+
+::: {.content-visible when-format="pdf"}
+**Languages**
+
+Ukrainian: `██████████` 
+English:   `█████████░` 
+:::
+
+### <i class="fa-solid fa-star"></i> Qualities
+
+- Adaptability
+- Teamwork
+- Dedication
+- Open-mindedness
+- Readiness to learn
+
+:::
+:::::
+
+
