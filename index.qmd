@@ -1,15 +1,32 @@
 ---
 title: "Ostryi Oleksandr"
 subtitle: "Artificial Intelligence Student"
+format-links: false
 format:
   html:
     theme: cosmo
     include-in-header: 
       - text: |
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+          <link rel="stylesheet"         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+          <style>
+            /* Приховуємо все зайве при друці в PDF */
+            @media print {
+              .quarto-alternate-formats, .no-print {
+                display: none !important;
+              }
+            }
+          </style>
   pdf:
     documentclass: article
 ---
+
+::: {.column-margin .no-print}
+<div style="text-align: right; margin-bottom: 1em;">
+  <a href="index.pdf" class="btn btn-outline-primary btn-sm" download style="text-decoration: none;">
+    <i class="fa-solid fa-file-pdf"></i> Download PDF
+  </a>
+</div>
+:::
 
 ::: callout-note
 ## Contacts and References
