@@ -22,7 +22,7 @@ format:
 
 ::: {.column-margin .no-print}
 <div style="text-align: right; margin-bottom: 1em;">
-  <a href="index.pdf" class="btn btn-outline-primary btn-sm" download style="text-decoration: none;">
+  <a href="Ostryi_Oleksandr_CV.pdf" class="btn btn-outline-primary btn-sm" download style="text-decoration: none;">
     <i class="fa-solid fa-file-pdf"></i> Download PDF
   </a>
 </div>
