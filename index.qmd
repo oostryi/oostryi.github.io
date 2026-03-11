@@ -40,28 +40,26 @@ format:
 
 #### Official Education
 
-| **School (2013 - 2020)**
-| [Vinnytsia school of General Education No. 18]{style="color:gray;"}
+| **Undergraduate education (2024 - 2028)**
+| [Kyiv School of Economics]{style="color:gray;"}
+| • Bachelor of Artificial Intelligence
 
 | **Lyceum (2020 - 2024)**
 | [Podilskyi Scientific and Technical Lyceum]{style="color:gray;"}
-| Graduated with Gold Medal 
-
-| **Undergraduate education (2024 - 2028)**
-| [Kyiv School of Economics]{style="color:gray;"}
-| Bachelor of Artificial Intelligence
+| • Elected President of the Student Council 
+| • 3rd Place, Regional Mathematics Contest 
+| • Graduated with a Gold Medal 
 
 ### <i class="fa-solid fa-briefcase"></i> Employment and Experiences
 
+| **Data & Systems Analyst (NOV 2025 - JAN 2026)**
+| [Freelance]{style="color:gray;"}
+| • Database Architecture and Logic: designed and implemented a relational database structure, optimized for complex querying and data retrieval efficiency.
+| • Data Driven QC: developed SQL and Python scripts to monitor automated data pipelines, ensuring accuracy in database updates.
+| • Automated Pipeline Debugging: Analyzed and resolved logic issues in scheduled cron jobs.
 | **Translator (NOV 2024 - JAN 2025)**
 | [Khan Academy]{style="color:gray;"}
-| Translated study materials on Khan Academy (in collaboration with Ukrainian Khan Academy team) platform from English to Ukrainian for free access to education in Ukraine.
-| **Technical Prototyping Lead (NOV 2025 - JAN 2026)**
-| [Freelance]{style="color:gray;"}
-| • Rapid MVP Development: used AI engineering tools (like Cursor) to build a functional prototype of an ordering platform.
-| • Database Architecture and Logic: designed and implemented a relational database structure, ensuring efficient data flow for search functionality and page loading time.
-| • Data Driven Quality Control: used SQL and Python for data level analysis to monitor and debug automated cron jobs, fixing logic issues and ensuring correct database updates.
-| • Cloud Infrastructure Management: managed deployment and maintenance of the production environment on the Render cloud platform.
+| • Translated study materials on Khan Academy (in collaboration with Ukrainian Khan Academy team) platform from English to Ukrainian for free access to education in Ukraine.
 :::
 
 ::: {.column style="border-left: 2px solid #ccc; padding-left: 1em; width: 30%;"}
