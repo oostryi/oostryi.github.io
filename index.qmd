@@ -10,6 +10,15 @@ format:
             .quarto-container { max-width: 900px !important; }
             .page-columns .content { grid-column: screen-start / screen-end !important; }
             
+            @media screen {
+              main.content {
+                width: 100%;
+                max-width: 1100px;
+                margin: 0 auto;
+                padding: 2rem 1.5rem;
+              }
+            }
+
             @page { size: A4; margin: 12mm 14mm; }
             @media print {
               .quarto-alternate-formats, .no-print {
@@ -93,13 +102,8 @@ format:
 ::: {.column style="border-left: 2px solid #ccc; padding-left: 1em; width: 40%;"}
 ### <i class="fa-solid fa-toolbox"></i> Known Tools and Concepts
 
-**Programming:** \
-• Python \
-• C++ \
-• C#
-
-
 **Data:** \
+• Python \
 • SQL \
 • pandas \
 • R \
@@ -127,7 +131,7 @@ format:
 
 ::: {.content-visible when-format="html"}
 | **Ukrainian**: Native
-| **English**: C1
+| **English**: B2+
 :::
 
 :::::
