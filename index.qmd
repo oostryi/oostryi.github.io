@@ -1,6 +1,4 @@
 ---
-title: "Ostryi Oleksandr"
-subtitle: "Artificial Intelligence Student"
 format-links: false
 format:
   html:
@@ -9,95 +7,129 @@ format:
       - text: |
           <link rel="stylesheet"         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
           <style>
-            /* Приховуємо все зайве при друці в PDF */
+            .quarto-container { max-width: 900px !important; }
+            .page-columns .content { grid-column: screen-start / screen-end !important; }
+            
+            @page { size: A4; margin: 12mm 14mm; }
             @media print {
               .quarto-alternate-formats, .no-print {
                 display: none !important;
               }
+              :root { font-size: 10pt !important; }
+              body { font-size: 10pt !important; line-height: 1.35 !important; }
+              h3 { margin-top: 0.8em; }
+            }
+            
+            .header-container { 
+              display: flex; 
+              justify-content: space-between; 
+              align-items: baseline; 
+              margin-bottom: 5px; 
+            }
+            .columns {
+              display: flex !important;
+              align-items: stretch; /* This forces both columns to be the same height */
+            }
+              
+            .column {
+              height: auto;
+            }
+            body {
+              font-size: 13pt; /* or 12pt if you want it very large */
+              line-height: 1.45;   /* adds vertical breathing room between lines */
             }
           </style>
   pdf:
     documentclass: article
 ---
 
-::: {.column-margin .no-print}
-<div style="text-align: right; margin-bottom: 1em;">
-  <a href="Ostryi_Oleksandr_CV.pdf" class="btn btn-outline-primary btn-sm" download style="text-decoration: none;">
-    <i class="fa-solid fa-file-pdf"></i> Download PDF
-  </a>
+```{=html}
+<div class="header-container">
+  <div>
+    <h1 style="margin: 0;">Ostryi Oleksandr</h1>
+    <p style="font-size: 1.2rem; color: #444; margin: 5px 0 0 0;">AI Student · Data, ML &amp; Automation</p>
+  </div>
+  <div class="no-print">
+    <a href="Ostryi_Oleksandr_CV.pdf" class="btn btn-outline-primary btn-sm" download style="text-decoration: none; border: 1px solid #007bff; padding: 5px 10px; border-radius: 4px;">
+      <i class="fa-solid fa-file-pdf"></i> Download PDF
+    </a>
+  </div>
 </div>
-:::
+```
 
 ::: callout-note
-## Contacts and References
+## Contacts
 
-<p><i class="fa-solid fa-envelope"></i> <a href="mailto:osstryi@gmail.com">osstryi\@gmail.com</a>   \|   <i class="fa-solid fa-phone"></i> +380 98 324 2124   \|   <i class="fa-brands fa-github"></i> <a href="https://github.com/oostryi">oostryi</a>   \|   <i class="fa-solid fa-location-dot"></i> 02000 Kyiv, Ukraine</p>
+<p><i class="fa-solid fa-envelope"></i> <a href="mailto:osstryi@gmail.com">osstryi\@gmail.com</a>   \|   <i class="fa-brands fa-github"></i> <a href="https://github.com/oostryi">oostryi</a>   \|   <i class="fa-solid fa-location-dot"></i> 02000 Kyiv, Ukraine</p>
 :::
 
 ::::: columns
-::: {.column width="70%"}
+::: {.column width="60%"}
 ### <i class="fa-solid fa-building-columns"></i> Education
 
-#### Official Education
-
-| **Undergraduate education (2024 - 2028)**
-| [Kyiv School of Economics]{style="color:gray;"}
+| **Kyiv School of Economics (2024 - 2028)**
 | • Bachelor of Artificial Intelligence
-
-| **Lyceum (2020 - 2024)**
-| [Podilskyi Scientific and Technical Lyceum]{style="color:gray;"}
-| • Elected President of the Student Council 
-| • 3rd Place, Regional Mathematics Contest 
-| • Graduated with a Gold Medal 
+| • GPA 82/100
 
 ### <i class="fa-solid fa-briefcase"></i> Employment and Experiences
 
-| **Data & Systems Analyst (NOV 2025 - JAN 2026)**
-| [Freelance]{style="color:gray;"}
-| • Database Architecture and Logic: designed and implemented a relational database structure, optimized for complex querying and data retrieval efficiency.
-| • Data Driven QC: developed SQL and Python scripts to monitor automated data pipelines, ensuring accuracy in database updates.
-| • Automated Pipeline Debugging: Analyzed and resolved logic issues in scheduled cron jobs.
-| **Translator (NOV 2024 - JAN 2025)**
-| [Khan Academy]{style="color:gray;"}
-| • Translated study materials on Khan Academy (in collaboration with Ukrainian Khan Academy team) platform from English to Ukrainian for free access to education in Ukraine.
+| **Data Science Practicum, KSE Institute (MAY 2026 - JUL 2026)**
+| Sole researcher on a project studying State Audit Service inspections of Prozorro tenders; built the full pipeline from data collection to a working scoring model.
+| • **Procurement Risk Model:** built an ML model that ranks Prozorro tenders by the probability of a violation confirmed by the State Audit Service, trained on ~38k tenders, to prioritize audits under limited inspection capacity.
+| • **Evaluation and Data Leakage Fix:** found data leakage and a broken contract-date field in the data pipeline, fixed them and re-evaluated the model on a clean out-of-time test set of 12.3k tenders.
+| • **Tender Lookup Tool:** built a tool that scores any tender by ID and fetches newly published tenders live from the Prozorro API.
+|
+| **Freelance Data & Automation Developer (NOV 2025 - JAN 2026)**
+| Sole developer of a production website for a retail business that aggregates product catalogs from multiple suppliers in one place; owned its database, data logic and automated updates.
+| • **Supplier Data Aggregation:** built Python scrapers that collect products, prices and stock from supplier websites, many of which offered no API, into a single PostgreSQL database.
+| • **Automated Catalog Updates:** ran the updates as scheduled cron jobs on Render; to stay within supplier request limits, split product categories into two groups refreshed on alternating days and timed the runs so update jobs never competed for database access.
+| • **Reliability:** added detailed logging and wrote scripts to verify the database after each update run; refined the pipeline over several test iterations until prices and availability stayed current without manual intervention.
+|
+| **Technical Translator at Khan Academy (NOV 2024 - JAN 2025)**
+| • **STEM Content Localization:** adapted high-level mathematics and science curricula for Ukrainian students, ensuring alignment with national technical terminology.
+| • **Terminology Management:** developed and managed bilingual technical glossaries for mathematics to ensure consistency across the platform’s Ukrainian localization.
 :::
 
-::: {.column style="border-left: 2px solid #ccc; padding-left: 1em; width: 30%;"}
+::: {.column style="border-left: 2px solid #ccc; padding-left: 1em; width: 40%;"}
 ### <i class="fa-solid fa-toolbox"></i> Known Tools and Concepts
 
-**Programming:** `Python` `C++` `C#`
+**Programming:** \
+• Python \
+• C++ \
+• C#
 
-**Data:** `SQL` `R` `Tableau`
 
-**Tools:** `Git` 
+**Data:** \
+• SQL \
+• pandas \
+• R \
+• Tableau
 
-**Concepts:** `Algorithms and Data Structures` `Database Management` `Machine Learning` `Discreet Math and Logic` 
+**Machine Learning:** \
+• scikit-learn \
+• LightGBM \
+• XGBoost \
+• PyTorch \
+• Weights & Biases
+
+**Tools:** \
+• Git \
+• cron \
+• REST APIs
+
+**Concepts:** \
+• Algorithms and Data Structures \
+• Database Management \
+• Machine Learning \
+• Discrete Math and Logic 
 
 ### <i class="fa-solid fa-language"></i> Languages
 
 ::: {.content-visible when-format="html"}
-Ukrainian 100%
-<progress value="1" max="1" style="width:100%; height:10px;"></progress>
-English 85%
-<progress value="0.85" max="1" style="width:100%; height:10px;"></progress>
+| **Ukrainian**: Native
+| **English**: C1
 :::
 
-::: {.content-visible when-format="pdf"}
-**Languages**
-
-Ukrainian: `██████████` 
-English:   `█████████░` 
-:::
-
-### <i class="fa-solid fa-star"></i> Qualities
-
-- Adaptability
-- Teamwork
-- Dedication
-- Open-mindedness
-- Readiness to learn
-
-:::
 :::::
 
 
